@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class listaDeTarefast {
+public class ListaDeTarefast {
 
     public static void main(String[] args) {
 
