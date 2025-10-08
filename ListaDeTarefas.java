@@ -11,7 +11,7 @@ public class ListaDeTarefas {
 
     public static void main(String[] args) {
 
-        List<String> listaDeTarefas = new ArrayList<>(); //cria o arraylist
+        List<String> listaDeTarefas = new ArrayList<>(); //cria o arraylist.
 
         //adiciona itens ao arraylist
         listaDeTarefas.add("Estudar Java");
