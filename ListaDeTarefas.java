@@ -1,17 +1,18 @@
 /*
-* Trabalho feito de forma básica e simples para mostrar o funcionamento de um ArrayList.
+* Trabalho feito de forma básica e simples para mostrar o funcionamento de um ArrayList,
+* utilizando o conceito de polimorfismo.
 * Trabalho feito sem métodos.
 **/
 
-
 import java.util.ArrayList;
+import java.util.List; 
 
 public class ListaDeTarefas {
 
     public static void main(String[] args) {
 
-        ArrayList<String> listaDeTarefas = new ArrayList<>(); //cria o arraylist
-        
+        List<String> listaDeTarefas = new ArrayList<>(); //cria o arraylist
+
         //adiciona itens ao arraylist
         listaDeTarefas.add("Estudar Java");
         listaDeTarefas.add("Fazer o trabalho de POO");
@@ -31,7 +32,7 @@ public class ListaDeTarefas {
         System.out.println("\nRemovendo a tarefa 'Estudar Banco de Dados'...");
         listaDeTarefas.remove(2);
 
-        //print a lista atualizada
+        //print com a lista atualizada
         System.out.println("\n--- Minha Lista de Tarefas Atualizada ---");
         System.out.println(listaDeTarefas);
         System.out.println("Total de tarefas agora: " + listaDeTarefas.size());
